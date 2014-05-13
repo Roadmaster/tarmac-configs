@@ -1,6 +1,7 @@
 Certification team Tarmac service.
 ==================================
 
+
 This charm takes care of deploying tarmac according to the certification team's
 desired setup.
 
@@ -28,8 +29,8 @@ follows:
     3. SSH keys (public and private) for tarmac to be able to push code to
       Launchpad.
 
-How to deploy this charm:
-
+How to deploy this charm
+------------------------
 1. The first thing is to decide is which Launchpad user to run tarmac as. The
    first config option is the username of this user.
 
